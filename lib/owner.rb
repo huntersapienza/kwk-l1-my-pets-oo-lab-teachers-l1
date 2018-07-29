@@ -11,7 +11,7 @@ attr_reader :species
 attr_accessor :name, :pets
 
   def buy_fish(name)
-    @pets[fishes] = name
+    @pets[:fishes] << name
   end
 
     # def question
