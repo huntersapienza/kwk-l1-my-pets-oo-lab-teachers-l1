@@ -12,8 +12,8 @@ attr_accessor :name, :pets
     @pets[:fishes] << name
   end
   
-  def buy_fish(name)
-    @pets[:fishes] << name
+  def buy_cat(name)
+    @pets[:cats] << name
   end
 
     # def question
