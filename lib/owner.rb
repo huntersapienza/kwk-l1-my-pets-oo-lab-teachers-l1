@@ -20,6 +20,7 @@ attr_accessor :name, :pets
     @pets[:dogs] << name
   end
 
+puts @pets
     # def question
   #   puts "Are we human? Or are we dancer?"
   #   if species == "human"
