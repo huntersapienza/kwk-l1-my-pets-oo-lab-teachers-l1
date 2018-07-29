@@ -20,7 +20,9 @@ attr_accessor :name, :pets
     @pets[:dogs] << name
   end
 
-puts @pets
+  def list_pets
+    return @pets
+  end
 
   def say_species
     "I am a #{species}."
