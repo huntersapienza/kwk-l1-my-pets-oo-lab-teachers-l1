@@ -5,11 +5,13 @@ class Owner
     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
-# @pets = {:fishes => [], :dogs => [], :cats => []}
-  
 attr_reader :species
 attr_accessor :name, :pets
 
+  def buy_fish(name)
+    @pets[:fishes] << name
+  end
+  
   def buy_fish(name)
     @pets[:fishes] << name
   end
