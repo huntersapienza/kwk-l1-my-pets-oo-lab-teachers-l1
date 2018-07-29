@@ -18,6 +18,7 @@ attr_accessor :name, :pets
   
   def buy_dog(name)
     @pets[:dogs] << name
+  end
 
     # def question
   #   puts "Are we human? Or are we dancer?"
