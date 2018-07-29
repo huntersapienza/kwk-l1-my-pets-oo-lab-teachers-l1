@@ -21,7 +21,7 @@ attr_accessor :name, :pets
   end
 
   def list_pets
-    puts "I have #{@pets[:fishes]} fish, #{@pets[:dogs]} dog(s), and #{@pets[:cats]}, cat(s)."
+    "I have #{@pets[:fishes]} fish, #{@pets[:dogs]} dog(s), and #{@pets[:cats]}, cat(s)."
   end
 
   def say_species
