@@ -21,15 +21,7 @@ attr_accessor :name, :pets
   end
 
 puts @pets
-    # def question
-  #   puts "Are we human? Or are we dancer?"
-  #   if species == "human"
-  #     puts "yas kween."
-  #   else
-  #     puts "nah, you livin in the good old days."
-  #   end
-  # end
-  
+
   def say_species
     "I am a #{species}."
   end
